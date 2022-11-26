@@ -18,7 +18,7 @@ public class WelcomeRestController {
 	@GetMapping(value = "/welcome/{name}")
 	public String welcomeMsg(@PathVariable("name") String name) {
 		logger.info("***** welcomeMsg() execution start *****");
-		String msg = name + ", Welcome to Ashok IT..!!";
+		String msg = name + ", Well Done!!! Docker is very important tool for DevOps guys.";
 		logger.info("***** welcomeMsg() execution end *****");
 		return msg;
 	}
