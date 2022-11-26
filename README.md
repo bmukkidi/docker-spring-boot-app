@@ -12,6 +12,3 @@ Run the Docker container using the command shown below.
 ```bash
 $ docker run -p 8080:8080 spring-boot-rest-api
 ```
-
-The application will be accessible at http://localhost:9090/welcome/Ashok/
-
